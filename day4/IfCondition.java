@@ -8,6 +8,7 @@ public class IfCondition {
         if (person_age>=18)
         {
             System.out.println("Eligible for vote");
+            
         }
     }
 }
