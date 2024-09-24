@@ -1,4 +1,12 @@
 package day6;
+/*
+1- Declare an array
+2- add values into array
+3- find length of an array
+4- read single value from an array
+5- read multiple values from an array
+*/
+
 
 public class SingleDimensionArray {
     public static void main(String[] args)
@@ -25,9 +33,17 @@ public class SingleDimensionArray {
         //reading all the values from array
 
         //Normal for loop - to know how the quantity of numbers that I have
-        for (int i=0;i<a.length;i++)  // i<=4  i<5  i<a.length-1  i<a.length
+
+        /*for (int i=0;i<a.length;i++)  // i<=4  i<5  i<a.length-1  i<a.length
         {
-            System.out.println(a[i]);
+            System.out.println(a[i]); //100 200 300 400 500
+        }
+         */
+
+        //enhanced for loop/ for..each loop
+        for(int x:a)
+        {
+            System.out.println(x); //100 200 300 ...
         }
 
     }
