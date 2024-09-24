@@ -27,6 +27,8 @@ public class OperatorsDemo {
         System.out.println(a!=b); //false
         System.out.println(a==b); //true
 
+        //What is the dif between == and = ? that the == is a comparisson operator and = is and assignment operator
+
         boolean res = a > b;
         System.out.println(res);
 
